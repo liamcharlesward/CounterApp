@@ -11,7 +11,7 @@ function App() {
     const count = Number(localStorage.getItem("count") || 0);
     setCount(count);
   }, []);
-
+''
   useEffect(() => {
     localStorage.setItem("count", count)
   }, [count]);
