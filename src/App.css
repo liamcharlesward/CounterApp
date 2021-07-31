@@ -1,24 +1,50 @@
 body {
-  background-color: #727272;
-}
+  background-color: #727272; }
 
-#app-wrapper{
+#app-wrapper {
   display: flex;
   flex-direction: column;
   height: 98vh;
   width: 100vw;
   align-items: center;
   justify-content: center;
-  overflow: hidden;
-}
+  overflow: hidden; }
 
-#buttons-row{
+#buttons-row {
   display: flex;
   flex-direction: row;
-  padding: 1vh;
-}
+  padding: 1vh; }
 
-.button{
+.CounterButton {
+  width: 15vh;
+  height: 15vh;
+  display: flex;
+  flex-direction: column;
+  border-radius: 50%;
+  justify-content: center;
+  align-items: center;
   cursor: pointer;
-  padding: 0.5vh;
-}
+  margin: 0.5vh; }
+  .CounterButton h1 {
+    font-size: 3em;
+    font-weight: 300;
+    margin: 0; }
+
+.CounterCircle {
+  width: 40vh;
+  height: 40vh;
+  background: #6efffa;
+  display: flex;
+  flex-direction: column;
+  border-radius: 50%;
+  justify-content: center;
+  align-items: center; }
+  .CounterCircle p {
+    font-size: 1.5em;
+    margin: 0; }
+  .CounterCircle h1 {
+    font-size: 5em;
+    font-weight: 300;
+    margin: 0; }
+
+/*# sourceMappingURL=App.css.map */
